@@ -12,9 +12,9 @@
 
   },
 
-  "host": "env-0693795.jelastic.servint.net",
+  "host": "serverRoot",
 
-  "basePath":	"/DSUsageManagement/api/usageManagement/v2",
+  "basePath":	"/tmf-api/usageManagement/v2/",
 
   "schemes": [
 
