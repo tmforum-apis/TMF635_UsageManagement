@@ -94,7 +94,19 @@
 
           }
 
-        }
+        },
+		  
+        "400": {
+
+          "description": "Request error"
+
+          },  	  		  
+		  
+        "500": {
+
+          "description": "Unexpected server error"
+
+          }
 
       }
 
@@ -157,6 +169,24 @@
         "204": {
 
           "description": "Successfully deleted"
+
+          },
+		  
+        "400": {
+
+          "description": "Request error"
+
+          },  	  		  
+
+        "404": {
+
+          "description": "Not Found"
+
+          },  	  		  		  
+		  
+        "500": {
+
+          "description": "Unexpected server error"
 
           }  
 
@@ -242,6 +272,24 @@
 
             }
 
+          },
+		  
+        "400": {
+
+          "description": "Request error"
+
+          },  	  		  
+		  
+        "404": {
+
+          "description": "Not Found"
+
+          },  	  		  		  		  
+		  
+        "500": {
+
+          "description": "Unexpected server error"
+
           }
 
       }        
@@ -310,15 +358,33 @@
 
       "responses": {
 
-        "201": {
+        "200": {
 
-          "description": "Success Usage",
+          "description": "Success Update Usage",
 
           "schema": {
 
             "$ref": "#/definitions/Usage"
 
             }
+
+          },
+		  
+        "400": {
+
+          "description": "Request error"
+
+          },  	  		  
+		  
+        "404": {
+
+          "description": "Not Found"
+
+          },  	  		  		  		  
+		  
+        "500": {
+
+          "description": "Unexpected server error"
 
           }
 
@@ -388,7 +454,19 @@
 
           }
 
-        }
+        },
+		  
+        "400": {
+
+          "description": "Request error"
+
+          },  	  		  
+		  
+        "500": {
+
+          "description": "Unexpected server error"
+
+          }
 
       }
 
@@ -452,7 +530,26 @@
 
           "description": "Successfully deleted"
 
-          }  
+          },
+		  		  
+		  
+        "400": {
+
+          "description": "Request error"
+
+          },  	  		  
+		  
+        "404": {
+
+          "description": "Not Found"
+
+          },  	  		  		  		  
+		  
+        "500": {
+
+          "description": "Unexpected server error"
+
+          }  	  
 
       }   
 
@@ -536,6 +633,25 @@
 
             }
 
+          },
+		  
+        "400": {
+
+          "description": "Request error"
+
+          },  	  		  
+		  
+        "404": {
+
+          "description": "Not Found"
+
+          },  	  		  		  		  
+		  
+		  
+        "500": {
+
+          "description": "Unexpected server error"
+
           }
 
       }        
@@ -604,7 +720,19 @@
 
           }
 
-        }
+        },
+		  
+        "400": {
+
+          "description": "Request error"
+
+          },  	  		  
+		  
+        "500": {
+
+          "description": "Unexpected server error"
+
+          }
 
       }
 
@@ -648,7 +776,19 @@
 
           } 
 
-        }          
+        },
+		  
+        "400": {
+
+          "description": "Request error"
+
+          },  	  		  
+		  
+        "500": {
+
+          "description": "Unexpected server error"
+
+          }          
 
       }
 
@@ -712,10 +852,29 @@
 
           "description": "Successfully deleted"
 
-          }  
+          },
 
-      }   
+        "400": {
 
+          "description": "Request error"
+
+          },  	  		  
+		  
+        "404": {
+
+          "description": "Not Found"
+
+          },  	  		  		  
+		  
+        "500": {
+
+          "description": "Unexpected server error"
+
+          }   
+		  
+
+      }
+		  
     }
 
 	,
@@ -777,6 +936,24 @@
             "$ref": "#/definitions/Hub"
 
             }
+
+          },
+		  
+        "400": {
+
+          "description": "Request error"
+
+          },  	  		  
+		  
+        "404": {
+
+          "description": "Not found"
+
+          },  	  		  		  
+		  
+        "500": {
+
+          "description": "Unexpected server error"
 
           }
 
