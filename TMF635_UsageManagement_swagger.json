@@ -156,7 +156,7 @@
 
         "204": {
 
-          "description": "Success"
+          "description": "Successfully deleted"
 
           }  
 
@@ -450,7 +450,7 @@
 
         "204": {
 
-          "description": "Success"
+          "description": "Successfully deleted"
 
           }  
 
@@ -710,7 +710,7 @@
 
         "204": {
 
-          "description": "Success"
+          "description": "Successfully deleted"
 
           }  
 
@@ -810,9 +810,7 @@
 
           
 
-          "type": "integer",
-
-          "format": "int64"
+          "type": "string"
 
         }
 
@@ -896,7 +894,7 @@
 
           
 
-                "$ref": "#/definitions/UsageSpecification"
+                "$ref": "#/definitions/UsageSpecificationRef"
 
   
 
@@ -994,9 +992,7 @@
 
           
 
-          "type": "integer",
-
-          "format": "int64"
+          "type": "string"
 
         }
 
@@ -1065,6 +1061,54 @@
         }
 
         
+
+      }
+
+    }
+
+                
+
+  ,
+
+
+  
+      "UsageSpecificationRef": {
+
+      
+
+      "type": "object",
+
+      "properties": {      
+
+      
+
+        "id": {
+
+          
+
+          "type": "string"
+
+        }
+
+        ,
+
+        "href": {
+
+          
+
+          "type": "string"
+
+        }
+
+        ,
+
+        "name": {
+
+          
+
+          "type": "string"
+
+        }
 
       }
 
@@ -1264,7 +1308,27 @@
 
         }
 
-        
+        ,
+		
+        "name": {
+
+          
+
+          "type": "string"
+
+        }
+
+        ,
+
+        "validFor": {
+
+          
+
+                "$ref": "#/definitions/ValidFor"
+
+  
+
+        }		
 
       }
 
